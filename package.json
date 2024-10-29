@@ -1,0 +1,36 @@
+{
+  "author": "lena",
+  "bugs": {
+    "url": "https://github.com/celo-org/celo-composer/issues"
+  },
+  "description": "Custom Celo Composer project.",
+  "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+  "keywords": [
+    "celo-composer",
+    "celo"
+  ],
+  "license": "MIT",
+  "name": "test-celo-composer-10",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celo-org/celo-composer.git"
+  },
+  "scripts": {
+    "react-app:dev": "yarn workspace @test-celo-composer-10/react-app dev",
+    "react-app:build": "yarn workspace @test-celo-composer-10/react-app build",
+    "react-app:start": "yarn workspace @test-celo-composer-10/react-app start",
+    "react-app:lint": "yarn workspace @test-celo-composer-10/react-app lint",
+    "hardhat:compile": "yarn workspace @test-celo-composer-10/hardhat compile",
+    "hardhat:tsc": "yarn workspace @test-celo-composer-10/hardhat tsc",
+    "hardhat:build": "yarn workspace @test-celo-composer-10/hardhat build",
+    "hardhat:clean": "yarn workspace @test-celo-composer-10/hardhat clean",
+    "hardhat:run:node": "yarn workspace @test-celo-composer-10/hardhat run:node",
+    "hardhat:test": "yarn workspace @test-celo-composer-10/hardhat test",
+    "hardhat:prettier": "yarn workspace @test-celo-composer-10/hardhat prettier"
+  },
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}
